@@ -40,9 +40,8 @@ export function Footer() {
           </div>
 
           <div className="h-48 w-full overflow-hidden rounded-xl bg-white/5 sm:h-full">
-            {/* Embedded Map do Parque Barigui / São José - Ajustar SRC final via Google Maps */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14413.435749214346!2d-49.3175409!3d-25.4262846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3f605cb49f3%3A0x671f6a1d4b68eeb4!2sParque%20Barigui!5e0!3m2!1spt-BR!2sbr!4v1698765432101!5m2!1spt-BR!2sbr" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1m4!1s0x94dce38d011f0c59:0x87fb880cbfa3c35b!2sParque+Barigui!5m2!1spt-BR!2sbr" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
@@ -57,13 +56,37 @@ export function Footer() {
       </div>
       
       <div className="container-pace mt-20 border-t border-white/15 pt-8">
-        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-          <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} Pace Running Curitiba. Todos os direitos reservados. CNPJ: 23.770.147/0001-66.
-          </p>
-          <div className="text-center text-xs tracking-wider text-white/40 uppercase">
-            designed by kumegawa
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between text-center md:text-left">
+          
+          {/* Coluna Esquerda: Informações de Direitos */}
+          <div className="flex-1">
+            <p className="text-xs text-white/50">
+              © {new Date().getFullYear()} Pace Running Curitiba. Todos os direitos reservados. CNPJ: 23.770.147/0001-66.
+            </p>
           </div>
+          
+          {/* Coluna Central: Bloco de Assinatura Padrão */}
+          <div className="flex-1 flex justify-center">
+            <div className="text-[11px] font-sans tracking-wider text-muted-foreground flex items-center justify-center gap-1 select-none">
+              <span>Designed by</span>
+              <a 
+                href="https://www.linkedin.com/in/lucas-kumegawa/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="group inline-flex items-center text-muted-foreground transition-all duration-300 hover:text-foreground"
+              >
+                <span className="font-oleo text-[16px] text-primary tracking-normal normal-case transition-all duration-300 group-hover:scale-105 block origin-center">
+                  Kumegawa
+                </span>
+              </a>
+            </div>
+          </div>
+
+          {/* Coluna Direita: Balanceamento de Layout (Desktop Only) */}
+          <div className="flex-1 hidden md:block">
+            {/* Mantido em branco para garantir a centralização perfeita da coluna do meio */}
+          </div>
+
         </div>
       </div>
     </footer>
