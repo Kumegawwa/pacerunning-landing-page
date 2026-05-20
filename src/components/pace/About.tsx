@@ -8,7 +8,7 @@ export function About() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-muted">
             <img
               src={coach}
-              alt="Fundadora e técnica da Pace Running Curitiba"
+              alt="Giseli Cristina de Oliveira - Fundadora e técnica da Pace Running Curitiba"
               loading="lazy"
               width={1200}
               height={1500}
@@ -16,7 +16,7 @@ export function About() {
             />
             <div className="absolute inset-x-4 bottom-4 rounded-xl bg-background/90 px-5 py-4 backdrop-blur-md">
               <p className="text-xs font-medium uppercase tracking-[0.18em] text-magenta">Fundadora & Técnica</p>
-              <p className="mt-1 font-display text-lg font-semibold">25 anos formada pela UFPR</p>
+              <p className="mt-1 font-display text-lg font-semibold">Giseli Cristina de Oliveira</p>
             </div>
           </div>
         </div>
@@ -40,8 +40,7 @@ export function About() {
               ciência esportiva, biomecânica e tecnologia para entregar treinos sob medida para cada atleta.
             </p>
             <p>
-              Nossa fundadora carrega 25 anos de formação em Educação Física pela UFPR e uma trajetória
-              dedicada a transformar corredores de qualquer nível em versões mais fortes de si mesmos.
+              Nossa fundadora, Giseli Cristina de Oliveira, carrega 25 anos de formação acadêmica em Educação Física pela Universidade Federal do Paraná (UFPR). É uma trajetória dedicada a transformar corredores de qualquer nível em versões mais fortes de si mesmos, aliando acolhimento orgânico à extrema credibilidade científica.
             </p>
           </div>
 
