@@ -4,14 +4,22 @@ import heroImg from "@/assets/hero-running.jpg";
 export function Hero() {
   return (
     <section id="top" className="relative min-h-[100svh] w-full overflow-hidden bg-ink text-white">
-      <img
-        src={heroImg}
-        alt="Atletas correndo ao amanhecer em Curitiba"
-        width={1920}
-        height={1280}
-        fetchPriority="high"
+      {/* Para a versão final, adicione um vídeo em public/video-hero.mp4 
+        O poster garante que a imagem carregue imediatamente enquanto o vídeo faz o buffer
+      */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        poster={heroImg}
         className="absolute inset-0 h-full w-full object-cover opacity-70"
-      />
+      >
+        <source src="/video-hero.mp4" type="video/mp4" />
+        {/* Fallback caso o navegador não suporte o vídeo */}
+        <img src={heroImg} alt="Atletas correndo em Curitiba" className="h-full w-full object-cover" />
+      </video>
+      
       <div className="absolute inset-0 bg-gradient-to-b from-deep-2/60 via-ink/55 to-ink" />
       <div className="absolute inset-0 bg-[radial-gradient(60%_45%_at_85%_15%,color-mix(in_oklab,var(--magenta)_35%,transparent),transparent_70%)]" />
 
