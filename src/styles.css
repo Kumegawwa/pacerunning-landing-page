@@ -1,6 +1,14 @@
 @import "tailwindcss" source(none);
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 @source "../src";
 @import "tw-animate-css";
+
+@theme {
+  --font-oleo: "Oleo Script", cursive;
+  
+  --color-magenta: #FF0660;
+  --color-ink: #300863;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600;700&display=swap");
 
