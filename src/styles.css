@@ -6,8 +6,15 @@
 @theme {
   --font-oleo: "Oleo Script", cursive;
   
+  /* Mantendo a identidade da Pace Running */
   --color-magenta: #FF0660;
   --color-ink: #300863;
+  --color-mist: #F7F7F7;
+
+  /* Aliasing para que classes genéricas como text-primary funcionem */
+  --color-primary: var(--color-magenta);
+  --color-primary-foreground: #FFFFFF;
+  --color-muted-foreground: #a1a1aa; /* text-zinc-400 */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600;700&display=swap");
