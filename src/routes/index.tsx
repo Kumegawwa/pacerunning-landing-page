@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-start";
+import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/pace/Header";
 import { Hero } from "@/components/pace/Hero";
 import { Marquee } from "@/components/pace/Marquee";
