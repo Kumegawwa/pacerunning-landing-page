@@ -60,7 +60,10 @@
   --radius: 0.875rem;
 
   /* Brand */
-  --magenta: oklch(0.62 0.27 8);         /* #FF0660 */
+  --magenta: #FF0660; 
+  @supports (color: oklch(0.62 0.27 8)) {
+    --magenta: oklch(0.62 0.27 8);
+  }         /* #FF0660 */
   --magenta-soft: oklch(0.7 0.21 8);
   --deep: oklch(0.22 0.13 300);          /* #300863 */
   --deep-2: oklch(0.16 0.09 295);
