@@ -14,11 +14,11 @@ import { Footer } from "@/components/pace/Footer";
 import { WhatsAppFloat } from "@/components/pace/WhatsAppFloat";
 
 const SITE_DESC =
-  "Treinamento de corrida presencial em Curitiba para iniciantes e atletas. Assessoria no Parque Barigui e Parque São José. Planilhas personalizadas para emagrecimento, provas de rua e prevenção de lesões.";
+  "Assessoria de corrida em Curitiba para iniciantes e atletas. Treino personalizado, baseado em ciência, no Parque Barigui e Parque São José.";
 
 const LD = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "SportsActivityLocation"],
+  "@type": "LocalBusiness",
   name: "Pace Running Curitiba",
   description: SITE_DESC,
   image: "/og-pace.jpg",
@@ -35,7 +35,8 @@ const LD = {
   makesOffer: [
     { "@type": "Offer", name: "Corrida para iniciantes" },
     { "@type": "Offer", name: "Treino de performance" },
-    { "@type": "Offer", name: "Preparação para meia maratona e maratona" },
+    { "@type": "Offer", name: "Preparação para meia maratona" },
+    { "@type": "Offer", name: "Preparação para maratona" },
     { "@type": "Offer", name: "Planilhas online de corrida" },
   ],
 };
@@ -45,13 +46,16 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Pace Running Curitiba — Assessoria de corrida premium" },
       { name: "description", content: SITE_DESC },
-      { name: "keywords", content: "assessoria de corrida curitiba, treinador de corrida online e presencial, treino parque barigui, corrida parque são josé, grupo de corrida bairro mercês, grupo de corrida bigorrilho, emagrecer correndo curitiba, prevenir lesões na corrida de rua" },
+      { name: "keywords", content: "assessoria de corrida em Curitiba, treino Parque Barigui, corrida Parque São José, planilhas de corrida, corrida para emagrecimento, meia maratona, maratona Curitiba" },
       { property: "og:title", content: "Pace Running Curitiba — Assessoria de corrida premium" },
       { property: "og:description", content: SITE_DESC },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#FF0660" },
+    ],
+    links: [
+      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }
     ],
     scripts: [
       {
