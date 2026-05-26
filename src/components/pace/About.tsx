@@ -30,17 +30,17 @@ export function About() {
 
           <div className="mt-7 space-y-5 text-base leading-relaxed text-foreground/80 md:text-[17px]">
             <p>
-              Nasceu pequena, em 2013, com mulheres que queriam mais do que correr — queriam pertencer.
-              Crescemos de forma orgânica, ano após ano, em torno de uma ideia simples:
-              <span className="font-medium text-foreground"> ninguém corre sozinho na Pace</span>.
+              A nossa história começou em 2013, com mulheres que queriam mais do que correr — queriam pertencer. 
+              Durante mais de uma década transformando vidas como Divas Running, crescemos de forma orgânica em torno de uma ideia simples:
+              <span className="font-medium text-foreground"> ninguém corre sozinho</span>.
             </p>
             <p>
-              Em 2023, abrimos as portas para todos e renascemos como <strong>Pace Running Curitiba</strong>.
-              Mantivemos o que nos definia — acolhimento, comunidade, evolução individual — e somamos
-              ciência esportiva, biomecânica e tecnologia para entregar treinos sob medida para cada atleta.
+              Em setembro de 2025, vivenciamos a evolução da nossa paixão pelo esporte e renascemos como <strong>Pace Running Curitiba</strong>. 
+              Foi um novo fôlego para alcançarmos novos P.A.C.E.s: <span className="italic font-medium text-foreground">Propósito, Ação, Conexão e Evolução</span>. 
+              Mantivemos nossa metodologia leve, prazerosa e inclusiva, somando a isso a ciência esportiva e biomecânica para entregar treinos sob medida para cada atleta, do iniciante ao avançado.
             </p>
             <p>
-              Nossa fundadora, Giseli Cristina de Oliveira, carrega 25 anos de formação acadêmica em Educação Física pela Universidade Federal do Paraná (UFPR). É uma trajetória dedicada a transformar corredores de qualquer nível em versões mais fortes de si mesmos, aliando acolhimento orgânico à extrema credibilidade científica.
+              Nossa fundadora, Giseli Cristina de Oliveira, carrega 25 anos de formação acadêmica em Educação Física pela Universidade Federal do Paraná (UFPR). É uma trajetória dedicada a transformar corredores de qualquer nível em versões mais fortes de si mesmos, aliando o acolhimento e a energia de sempre à extrema credibilidade científica.
             </p>
           </div>
 
